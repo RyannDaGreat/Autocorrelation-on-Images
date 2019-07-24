@@ -1,3 +1,4 @@
+folder='/Users/Ryan/Desktop/Autocorrelation on Images'
 def testurl(url):
     imname=random_namespace_hash(3)
     im=load_image_from_url(url)
@@ -55,7 +56,6 @@ def testurl(url):
     save_image(out,folder+'/'+imname+'_1')
 ans=rgbauto(load_image_from_url(ans[2]))
 display_image(ans)
-folder='/Users/Ryan/Desktop/Tests'
 ans="""http://online-drawinglessons.com/wp-content/uploads/2016/12/how-to-draw-spongebob-step-by-step-1.jpg
 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReJINSiUVH7I6gCLUnYgw6Bd3BlJZuNqwx-eQKAZoWG3Ivl29H
 https://www.easy-drawings-and-sketches.com/images/cartoon-kitten23s.jpg
